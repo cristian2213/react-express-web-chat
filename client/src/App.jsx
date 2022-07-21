@@ -1,8 +1,9 @@
 import { Button } from 'primereact/button';
 
-function App() {
+function App () {
   return (
     <div className="App">
+      {/* TODO: Define routes */}
       <Button type="submit">Content</Button>
     </div>
   );
