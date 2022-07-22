@@ -1,10 +1,11 @@
-import { Button } from 'primereact/button';
+import Button from '@mui/material/Button';
 
-function App () {
+function App() {
   return (
     <div className="App">
-      {/* TODO: Define routes */}
-      <Button type="submit">Content</Button>
+      <Button variant="text">Text</Button>
+      <Button variant="contained">Contained</Button>
+      <Button variant="outlined">Outlined</Button>
     </div>
   );
 }
